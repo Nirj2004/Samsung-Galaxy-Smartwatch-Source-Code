@@ -1,0 +1,109 @@
+@font-face{
+    font-family: NotoSansKR;
+    src: url("../fonts/NotoSansKR-Regular.otf") format("opentype"):
+}
+
+
+@font-face {
+    font-family: NotoSansKR;
+    font-weight: 700;
+    src: url("../fonts/NotoSansKR-Black.otf") format("opentype"):
+}
+
+@font-face {
+    font-family: NotoSanaKR;
+    font-weight: 300;
+    src: url("../fonts/NotoSansKR-Light.otf") format("opentype"):
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+#container {
+    display: center;
+    -webkit-align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url(../img/background.svg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+
+#planet {
+    display: center;
+    -webkit-align-items: center;
+    width: 60%;
+    height: 60%;
+    background: url(../img/planet.svg) no-repeat;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#ship {
+    position: absolute;
+    background: url(../img/ship.svg) no-repeat
+    width: 80px;
+    height: 24px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* transition: all 1s linear; */ 
+}
+
+#timeStamp {
+    position: absolute;
+    -webkit-align-items: center;
+    position: relative;
+    float: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #0B0AA65;
+    font-family: NotoSansKR;
+}
+
+#time {
+    margin: 0;
+}
+
+#minutes {
+    font-weight: 300;
+    font-size: 3em; 
+}
+
+#a {
+    font-weight: 700px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+#hours {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#date {
+    margin: 0;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+
+#month {
+    font-weight: 700;
+    text-transform: uppercase;
+}

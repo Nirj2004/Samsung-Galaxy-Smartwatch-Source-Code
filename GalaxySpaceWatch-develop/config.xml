@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://trturino.net/GalaxySpaceWatch" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="nyRqyWetxX.CanvasWatch" package="nyRqyWetxX" required_version="2.3.1"/>
+    <author email="trturino@gmail.com">Rafael Turino</author>
+    <tizen:category name="http://tizen.org/category/wearable_clock"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>GalaxySpaceWatch</name>
+    <tizen:profile name="wearable"/>
+</widget>
